@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            University website design
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    </head>
+    <body> 
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="closeMenu()"></i>
+                    <ul>
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="About.html">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="course.html">COURSE</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">BLOG</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>OUR COURSES</h1>
+        </section>
+
+       <!--Course-->
+       <section class="course">
+        <h1>Courses we offer</h1>
+        <p>BBA, BFM, MBA, MFM, BMM, BCA, MCA</p>
+
+        <div class="row">
+            <div class="cource-col">
+                <h3>Intermediate</h3>
+                <p>Assemble the perfect team with Monster’s production job description templates and find candidates who can ensure your production standards are met.</p>
+
+            
+            
+            </div>
+            <div class="cource-col">
+                <h3>Degree</h3>
+                <p>Assemble the perfect team with Monster’s production job description templates and find candidates who can ensure your production standards are met.</p>
+
+            
+            
+            </div>
+            <div class="cource-col">
+                <h3>Post Graduation</h3>
+                <p>Assemble the perfect team with Monster’s production job description templates and find candidates who can ensure your production standards are met.</p>
+
+            
+            
+            </div>
+        </div>
+
+    </section>
+
+        
+
+
+        <!--course-->
+        
+        <!--campus-->
+       
+
+       <!--facilities-->
+       <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>World class amenities are available here.</p>
+        <div class="row">
+            <div class="facilities-col"><img src="images/library.png" >
+            <h3>
+                World Class Library
+            </h3>
+            <p>A massive library with over a huge variety of books.</p>
+            </div>
+            <div class="facilities-col"><img src="images/basketball.png" >
+             <h3>
+                 A Dedicated Area to Sports
+             </h3>
+             <p>The best possible facilities dedicated to sports is available here.</p>
+             </div>
+             <div class="facilities-col"><img src="images/cafeteria.png" >
+                 <h3>
+                     Tasty And Healthy Food
+                 </h3>
+                 <p> Food available 24/7. Clean and healthy food available here.</p>
+                 </div>
+
+        </div>
+
+        
+
+        <section class="testimonials">
+            <h1>Testimonials</h1>
+            <p>Reviews from a few of our alumni</p>
+            <div class="row">
+               <div class="testimonials-col">
+                   <img src="images/user1.jpg" >
+                   <div><p>Probably the best teaching staff available. And the facilities are out of this world.</p><h3>Shriya Prajapati</h3>
+                 <i class="fas fa-star"> </i>
+                 <i class="fas fa-star"> </i>
+                 <i class="fas fa-star"> </i>
+                 <i class="fas fa-star"> </i>
+                 <i class="fas fa-star-o"> </i>
+
+                
+                 </div>
+
+               </div>
+               <div class="testimonials-col">
+                 <img src="images/user2.jpg" >
+                 <div><p>Very good infrastructure and world class facilities.</p><h3>Mukul Prajapati</h3>
+                     <i class="fas fa-star"> </i>
+                     <i class="fas fa-star"> </i>
+                     <i class="fas fa-star"> </i>
+                     <i class="fas fa-star"> </i>
+                     <i class="fas fa-star-half-o"> </i>
+                 
+                 </div>
+
+             </div>
+             
+            </div>
+        </section>
+
+    </section>
+      
+           
+        <!--testimonials-->
+           
+    
+
+       <!---call to action--->
+
+      
+<!---Footer-->
+
+       <section class="footer">
+           <h4>About us</h4>
+           <p>Creating leaders in business for a while now. Is the leading University with the most number of successful start-ups.</p>
+           <div class="icons">
+            <i class="fas fa-facebook"> </i>
+            <i class="fas fa-instagram"> </i>
+            <i class="fas fa-twitter"> </i>
+            <i class="fas fa-linkedin"> </i>
+           </div>
+           <i>Made by Priyanuj Choudhury and Sir Mukul Prajapati</i>
+         </section>
+
+
+
+
+
+
+
+
+
+
+
+        <!--Javascript for toggle menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+                }
+        </script>
+ 
+    </body>
+</html>
